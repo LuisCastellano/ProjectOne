@@ -1,0 +1,22 @@
+.nvContainer {
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+
+
+  .nv {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #424242;
+    padding: 0 15px;
+
+    span {
+      color: white;
+      height: fit-content;
+    }
+
+    }
+
+}
