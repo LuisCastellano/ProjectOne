@@ -8,7 +8,7 @@ body {
 
 
 .dashboard-container {
-  display: grid;
+  display: grid; // En este caso utilizaría grid, ya que necesitamos organizar elementos en dos dimensiones.
   height: 100vh;
 }
 
@@ -17,7 +17,7 @@ body {
 }
 
 .dashboard-cards {
-  column-count: 1;
+  column-count: 1; // Lo utilizamos para dividir en columnas los cards dependiendo del tamaño del dispositivo.
   column-gap: 20px;
   padding: 20px !important;
   margin: 0 !important;
@@ -30,7 +30,7 @@ body {
   width: 100%;
   background-color: #acd7ff;
   margin-bottom: 20px;
-  //-webkit-column-break-inside: avoid;
+  -webkit-column-break-inside: avoid; // Evita roturas de salto dentro del contenedor
   padding: 24px;
   box-sizing: border-box;
 }
@@ -64,6 +64,6 @@ body {
 @media only screen and (min-width: 65.625em) {
   /* Break out main cards into two columns */
   .dashboard-cards {
-    column-count: 2;
+    column-count: 2; // En este caso, el contenido se dividirá en dos columnas cuando sea superior a tablet
   }
 }
